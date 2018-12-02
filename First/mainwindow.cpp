@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QPushButton *btClose = new QPushButton(this);
 
     btClose->setGeometry(QRect(50,150,100,25));
-    btClose->setText("确定");
+    btClose->setText("退出");
     connect(btClose,SIGNAL(clicked()),this,SLOT(close()));
 
 
